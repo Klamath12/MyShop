@@ -23,7 +23,7 @@ namespace MyShop.DataAccess.InMemory
             }
         }
 
-        public void Commin()
+        public void Commit()
         {
             cache["products"] = products;
         }
